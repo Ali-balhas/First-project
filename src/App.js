@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-  return <div className="App"></div>;
+  <div className="App">
+    <p>Hello</p>
+  </div>;
 }
 
 export default App;
